@@ -1,0 +1,5 @@
+First Name,Last Name,Email,Age,Active
+John,Doe,john@example.com,25,true
+Jane,Smith,jane@example.com,30,false
+Bob,Jones,bob@example.com,22,true
+Alice,Brown,alice@example.com,,true
