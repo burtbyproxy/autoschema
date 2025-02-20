@@ -1,0 +1,43 @@
+{
+	"name": "autoschema-api",
+	"version": "1.0.0",
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"main": "./server.js",
+	"type": "module",
+	"scripts": {
+		"autoschema": "node ./src/core/autoschema/index.js",
+		"test": "node --test",
+		"start": "node",
+		"dev": "nodemon"
+	},
+	"dependencies": {
+		"commander": "^13.1.0",
+		"csv-parse": "^5.6.0",
+		"express": "^4.21.2",
+		"pg": "^8.13.3",
+		"sequelize": "^6.37.5"
+	},
+	"devDependencies": {
+		"dotenv": "^16.4.7",
+		"eslint": "^9.20.1",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-prettier": "^5.2.3",
+		"nodemon": "^3.1.9",
+		"prettier": "^3.5.1",
+		"umzug": "^3.8.2",
+		"winston": "^3.17.0"
+	},
+	"imports": {
+		"#api/*": "./src/api/*",
+		"#core/*": "./src/core/*",
+		"#domain/*": "./src/domain/*",
+		"#config/*": "./src/core/config/*",
+		"#controllers/*": "./src/api/controllers/*",
+		"#models/*": "./src/domain/models/*",
+		"#routers/*": "./src/api/routers/*",
+		"#utils/*": "./src/core/utils/*"
+	}
+}
