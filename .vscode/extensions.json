@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"irongeek.vscode-env",
+		"esbenp.prettier-vscode",
+		"rvest.vs-code-prettier-eslint",
+		"redhat.vscode-yaml",
+		"github.copilot"
+	]
+}
