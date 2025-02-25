@@ -25,7 +25,6 @@ export default [
 			}
 		},
 		rules: {
-			// "no-unused-vars": "off",
 			"import/order": [1, { groups: ["external", "builtin", "internal", "sibling", "parent", "index"] }]
 		}
 	},

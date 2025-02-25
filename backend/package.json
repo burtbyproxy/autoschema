@@ -8,9 +8,9 @@
 	"type": "module",
 	"scripts": {
 		"autoschema": "node ./src/core/autoschema/index.js",
-		"test": "node --test",
 		"start": "node",
-		"dev": "nodemon"
+		"dev": "nodemon",
+		"test": "node --test"
 	},
 	"dependencies": {
 		"commander": "^13.1.0",
